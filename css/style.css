@@ -1,0 +1,8 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #017305;
+    padding: 20px;
+    outline: 5px solid #005703;
+}
+
