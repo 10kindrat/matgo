@@ -5,6 +5,7 @@ export default class MenuScene extends Phaser.Scene {
 
     preload() {
         this.load.image("background", "./assets/img/bg/menuBg.png");
+        this.load.image("startBtn", "./assets/img/ui/gameStartBtn.png");
     }
 
     create() {
@@ -14,5 +15,6 @@ export default class MenuScene extends Phaser.Scene {
         //배경
         const bg = this.add.image(width / 2, height / 2, "background");
         bg.setDisplaySize(width, height);
+        const gameStartBtn = this.add.image(width / 2, height / 2 + 100, "startBtn").setInteractive();
     }
 }
