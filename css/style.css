@@ -6,3 +6,9 @@
     outline: 5px solid #005703;
 }
 
+canvas {
+    display: block;
+    margin: 0 auto;
+    outline : none !important;
+    border: none !important;
+}
